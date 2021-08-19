@@ -8,6 +8,7 @@ body, *{
   margin: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  font-smooth: always;
 }
 
 header {
@@ -39,6 +40,14 @@ menu{
   font-weight: 400;
 }
 
+.medium {
+  padding: .8rem 2rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
 .logo{
   display: inline-block;
   color: var(--main-color);
@@ -52,11 +61,15 @@ menu{
 }
 
 .options > button {
+  cursor: pointer;
   border-style: none;
   background-color: transparent;
-  color: rgb(29, 29, 29)
+  color: rgb(46, 46, 46)
 }
 
+.options > button:hover {
+  color: black;
+}
 section {
   display: flex;
   flex-direction: column;
@@ -71,9 +84,65 @@ section > p {
   font-weight: 700;
 }
 
+.benefits {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.advantages {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  color: rgb(46, 46, 46);
+  margin-bottom: 1.4rem;
+}
+
+.advantages .icon {
+  background-color: var(--main-color);
+  border-radius: 100%;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  margin-right: 1rem;
+}
+
+.icon i{
+  color: #fff;
+}
+
+.contact-area {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+}
+
+.contact-area input {
+  outline: none;
+  font-size: 1rem;
+  border-style: none;
+  padding: .7rem 1.6rem;
+  border-radius: 15px;
+  background: #DCDCDC;
+  width: 199px;
+}
+
+.contact-area button {
+  margin-top: .8rem;
+}
+
+.contact-area-text {
+  font-weight: bold;
+  font-weight: 1.4rem;
+  margin-bottom: 1rem;
+}
 @media (max-width: 375px) {
   .logo{
-    margin-top: 2rem;
+    margin-top: 1.7rem;
     font-size: 2.9rem;
   }
   menu {
@@ -83,6 +152,11 @@ section > p {
   .btn {
     font-size: 1rem;
     margin-top: 1.5rem;
+    transition: all .1s;
+  }
+
+  .btn:active {
+    transform: scale(1.06);
   }
   
   .options {
@@ -109,5 +183,11 @@ section > p {
 
   .destaque{
     font-size: 2.7rem;
+  }
+
+  .benefits > img {
+    width: 200px;
+    margin-top: 8px;
+    margin-bottom: 2rem;
   }
 }
