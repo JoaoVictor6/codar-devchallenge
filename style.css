@@ -10,3 +10,104 @@ button {
   border-style: none;
   cursor: pointer;
 }
+
+.logo{
+  font-style: italic;
+  color: #d80f1c;
+  font-weight: bold;
+  font-size: 34px;
+}
+
+.logo::after {
+  content: ".";
+  color: #000;
+}
+
+.header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*
+
+MENU
+
+*/
+.header__menu {
+  width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.item {
+  display: flex;
+  gap: 7px;
+}
+
+.item__button {
+  font-size: 18px;
+  background-color: transparent;
+  padding: 7px 15px;
+}
+
+.item__button:hover {
+  color: #0d0d0d;
+}
+
+.item__button--highlighted{
+  background-color: #d80f1c;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 8px 40px;
+  border-radius: 10px;
+  transition: all .2s;
+}
+
+.item__button--highlighted:hover {
+  background-color: #cc0d1a;
+}
+
+/*
+
+HEADER SECTION
+
+*/
+
+.header__section {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+  
+}
+
+.header__section .section__img {
+  width: 380px;
+}
+
+.aside__text {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.aside__text--highlighted {
+  color: #d80f1c;
+  font-weight: bold;
+  font-size: 64px;
+}
+
+.aside__button{
+  background-color: #d80f1c;
+  margin-top: 18px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 8px 40px;
+  border-radius: 10px;
+  transition: all .2s;
+}
