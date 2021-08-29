@@ -13,9 +13,10 @@ button {
 
 .logo{
   font-style: italic;
-  color: #d80f1c;
+  color: #D6000D;
   font-weight: bold;
   font-size: 34px;
+  cursor: pointer;
 }
 
 .logo::after {
@@ -90,19 +91,19 @@ HEADER SECTION
   width: 380px;
 }
 
-.aside__text {
+.section-aside__text {
   font-size: 24px;
   font-weight: bold;
 }
 
-.aside__text--highlighted {
-  color: #d80f1c;
+.section-aside__text--highlighted {
+  color: #D6000D;
   font-weight: bold;
   font-size: 64px;
 }
 
-.aside__button{
-  background-color: #d80f1c;
+.section-aside__button{
+  background-color: #D6000D;
   margin-top: 18px;
   color: #fff;
   font-weight: 600;
