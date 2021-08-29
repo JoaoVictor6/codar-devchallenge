@@ -59,7 +59,7 @@ MENU
 }
 
 .item__button--highlighted{
-  background-color: #d80f1c;
+  background-color: #D6000D;
   color: #fff;
   font-weight: 600;
   font-size: 18px;
@@ -111,4 +111,100 @@ HEADER SECTION
   padding: 8px 40px;
   border-radius: 10px;
   transition: all .2s;
+}
+
+/*
+
+ BENEFITS SECTION
+
+*/
+
+.benefits-section {
+  display: flex;
+  gap: 46px;
+  align-items: center;
+  justify-content: center;
+}
+
+.benefits-section__coding-img {
+  width: 350px;
+  position: relative;
+  right: 78px;
+  margin-bottom: 72px;
+}
+
+.benefits-section__list{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-left: 78px;
+}
+
+.list {
+  display: flex;
+  gap: 16px;
+  justify-content: left;
+  align-items: center;
+} 
+
+.list__icon {
+  display: flex;
+  justify-content: center;
+  background: #D6000D;
+  padding: 5px;
+  border-radius: 100%;
+  color: #fff;
+}
+
+/*
+
+ form SECTION
+
+*/
+
+.contact-form{
+  margin-top: 28px;
+  display: grid; 
+  grid-auto-columns: 1fr; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr 1fr; 
+  gap: 0px 8px;
+  grid-template-areas: 
+    "l l"
+    "i b"; 
+}
+
+.contact-form__label {
+  grid-area: l;
+  align-items: end;
+  display: flex;
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.contact-form__input {
+  grid-area: i;
+  border-style: none;
+  outline: none;
+  font-size: 16px;
+  padding: 10px 8px;
+  border-radius: 10px;
+  background: #dcdcdc;
+}
+
+.contact__button {
+  display: inline-block;
+  background-color: #D6000D;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 10px 8px;
+  border-radius: 10px;
+  transition: all .2s;
+  grid-area: b;
+}
+
+.contact__button:hover {
+  background-color: #cc0d1a;
 }
