@@ -208,3 +208,53 @@ HEADER SECTION
 .contact__button:hover {
   background-color: #cc0d1a;
 }
+
+/*
+
+  TESTIMONIES 
+
+*/
+
+.testimonies-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  margin: 70px 0;
+  gap: 24px;
+}
+
+.testimonies {
+  display: inline-flex;
+  gap: 8px;
+  background-color: #dedede;
+  align-items: flex-start;
+  padding: 20px;
+  border-radius: 10px;
+  height: 151px;
+}
+
+.testimonies__img {
+  width: 70px;
+  height: 70px;
+  background-color: #D6000D;
+  border-radius: 100%;
+}
+
+.testimonies__text {
+  width: 400px;
+}
+
+.text__message {
+  text-align: justify;
+}
+
+.text__author {
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 8px;
+}
+
+.text__author-description {
+  font-weight: bold;
+}
