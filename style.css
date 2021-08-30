@@ -258,3 +258,74 @@ HEADER SECTION
 .text__author-description {
   font-weight: bold;
 }
+
+/* 
+
+  FOOTER AREA
+
+*/
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 32px;
+  padding-bottom: 20px;
+}
+
+.footer__logo {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 34px;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+.about__title {
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 16px; 
+}
+
+.about__subtitle {
+  width: 200px;
+}
+
+.contact__title {
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.contact__adress {
+  margin-bottom: 16px;
+}
+
+.contact__number {
+  margin-bottom: 18px;
+}
+
+.contact__email {
+  cursor: pointer;
+  text-decoration: underline; 
+}
+
+.midia__title {
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.midia__icons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.midia__icons > i {
+  color: #D6000D;
+  cursor: pointer;
+  font-size: 36px;
+}
