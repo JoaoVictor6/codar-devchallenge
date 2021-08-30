@@ -36,7 +36,7 @@ MENU
 
 */
 .header__menu {
-  width: 1280px;
+  width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -328,4 +328,24 @@ HEADER SECTION
   color: #D6000D;
   cursor: pointer;
   font-size: 36px;
+}
+
+/* 
+
+RESPONSIVENESSA AREA
+
+*/
+
+@media (max-width: 600px) {
+  .item__button--highlighted{
+    display: none;
+  }
+}
+
+@media(max-width: 414px) {
+  .header__menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
