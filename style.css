@@ -340,6 +340,31 @@ RESPONSIVENESSA AREA
   .item__button--highlighted{
     display: none;
   }
+
+  .header__section{
+    flex-direction: column;
+  }
+
+  .section__img {
+    width: 300px;
+  }
+
+  .section__aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .section__aside > p {
+    text-align: center;
+  }
+
+  .section-aside__button {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 18px; 
+  }
 }
 
 @media(max-width: 414px) {
