@@ -340,13 +340,13 @@ RESPONSIVENESSA AREA
   .testimonies {
     height: auto;
   }
-
-  .testimonies__text {
-    width: 220px;
-  }
 }
 
 @media (max-width: 414px) {
+  .testimonies__text {
+    width: 220px;
+  }
+
   .header__menu{
     display: flex;
     flex-direction: column;
@@ -360,6 +360,42 @@ RESPONSIVENESSA AREA
   .testimonies__img {
     width: 50px;
     height: 50px;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .footer__logo-area {
+    margin: 0 auto;
+  }
+
+  .footer__logo {
+    text-align: center;
+    margin: 0;
+  }
+
+  .footer__logo-subtitle {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+
+  .footer__about, .footer__contact, .footer__midia {
+    margin-left: 37px;
+  }
+
+  .about__title, .contact__title, .contact__adress, .contact__number {
+    margin-bottom: 0;
+  }
+
+  .midia__icons {
+    justify-content: start;
+    gap: 25px;
+  }
+
+  .midia__icons > i {
+    font-size: 50px;
   }
 }
 
@@ -399,10 +435,6 @@ RESPONSIVENESSA AREA
     flex-direction: column;
     height: auto;
   }
-
-  /* .testimonies__text {
-    width: 280px;
-  } */
 }
 
 @media (max-width: 844px) {
