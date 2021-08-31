@@ -336,6 +336,33 @@ RESPONSIVENESSA AREA
 
 */
 
+@media (max-width: 375px) {
+  .testimonies {
+    height: auto;
+  }
+
+  .testimonies__text {
+    width: 220px;
+  }
+}
+
+@media (max-width: 414px) {
+  .header__menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .text__author {
+    font-size: 20px;
+  }
+
+  .testimonies__img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
 @media (max-width: 600px) {
   .item__button--highlighted{
     display: none;
@@ -367,12 +394,15 @@ RESPONSIVENESSA AREA
   }
 }
 
-@media(max-width: 414px) {
-  .header__menu{
-    display: flex;
+@media (max-width: 800px) {
+  .testimonies-area {
     flex-direction: column;
-    justify-content: space-between;
+    height: auto;
   }
+
+  /* .testimonies__text {
+    width: 280px;
+  } */
 }
 
 @media (max-width: 844px) {
