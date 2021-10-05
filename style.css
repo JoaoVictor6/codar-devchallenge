@@ -336,15 +336,13 @@ RESPONSIVENESSA AREA
 
 */
 
-@media (max-width: 375px) {
-  .testimonies {
-    height: auto;
-  }
-}
-
 @media (max-width: 414px) {
   .testimonies__text {
     width: 220px;
+  }
+
+  .testimonies {
+    height: auto;
   }
 
   .header__menu{
